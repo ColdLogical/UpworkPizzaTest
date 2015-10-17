@@ -83,7 +83,7 @@ static const NSString *kEniroProfile = @"ColdLogic";
 -(void)searchForPizzaPlacesAtLocation:(CLLocation *)location {
         if(!self.searchingForPizzaPlaces) {
                 self.searchingForPizzaPlaces = true;
-                NSString *latitudeLongitudeURLString = [NSString stringWithFormat:@"http://api.eniro.com/cs/search/basic?profile=%@&key=%@&country=se&version=1.1.3&latitude=%f&longitude=%f&search_word=pizza",
+                NSString *latitudeLongitudeURLString = [NSString stringWithFormat:@"http://api.eniro.com/cs/search/basic?profile=%@&key=%@&country=se&version=1.1.3&latitude=%f&longitude=%f&search_word=pizza&from_list=1&to_list=5",
                                                         kEniroProfile,
                                                         kEniroAPIKey,
                                                         location.coordinate.latitude,

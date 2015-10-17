@@ -48,7 +48,11 @@
                         [places addObject:viewObject];
                 }
                 
-                [self.view showPizzaPlaces:places];
+                NSSortDescriptor *nameDescriptor = [[NSSortDescriptor alloc] initWithKey:@"placeName" ascending:YES];
+                
+                NSArray *sortedPlaces = [places sortedArrayUsingDescriptors:@[nameDescriptor]];
+                
+                [self.view showPizzaPlaces:sortedPlaces];
         } else {
                 [self.view showNoPizzaPlacesFound];
         }
