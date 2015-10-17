@@ -20,7 +20,6 @@
 		01E5928C1BD2ABD900C0EA0D /* PlacesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E592851BD2ABD900C0EA0D /* PlacesView.m */; settings = {ASSET_TAGS = (); }; };
 		01E5928D1BD2ABD900C0EA0D /* PlacesWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E592881BD2ABD900C0EA0D /* PlacesWireframe.m */; settings = {ASSET_TAGS = (); }; };
 		01E5928F1BD2B22900C0EA0D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E5928E1BD2B22900C0EA0D /* CoreLocation.framework */; };
-		01E592951BD2C0DA00C0EA0D /* New_York_Trip.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 01E592941BD2C0DA00C0EA0D /* New_York_Trip.gpx */; settings = {ASSET_TAGS = (); }; };
 		01E5929A1BD2C5CE00C0EA0D /* PizzaPlace+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E592971BD2C5CE00C0EA0D /* PizzaPlace+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
 		01E5929B1BD2C5CE00C0EA0D /* PizzaPlace.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E592991BD2C5CE00C0EA0D /* PizzaPlace.m */; settings = {ASSET_TAGS = (); }; };
 		01E5929E1BD2C8BE00C0EA0D /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5929D1BD2C8BD00C0EA0D /* CoreDataManager.m */; settings = {ASSET_TAGS = (); }; };
@@ -29,6 +28,7 @@
 		01E592B11BD2D5D200C0EA0D /* PizzaPlaceDisplayPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E592A81BD2D5D200C0EA0D /* PizzaPlaceDisplayPresenter.m */; settings = {ASSET_TAGS = (); }; };
 		01E592B21BD2D5D200C0EA0D /* PizzaPlaceDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E592AB1BD2D5D200C0EA0D /* PizzaPlaceDisplayView.m */; settings = {ASSET_TAGS = (); }; };
 		01E592B31BD2D5D200C0EA0D /* PizzaPlaceDisplayWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E592AE1BD2D5D200C0EA0D /* PizzaPlaceDisplayWireframe.m */; settings = {ASSET_TAGS = (); }; };
+		01E592B91BD2DE0B00C0EA0D /* New_York_Trip.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 01E592B81BD2DE0B00C0EA0D /* New_York_Trip.gpx */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,7 +77,6 @@
 		01E592881BD2ABD900C0EA0D /* PlacesWireframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlacesWireframe.m; sourceTree = "<group>"; };
 		01E592891BD2ABD900C0EA0D /* PlacesWireframeProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlacesWireframeProtocols.h; sourceTree = "<group>"; };
 		01E5928E1BD2B22900C0EA0D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		01E592941BD2C0DA00C0EA0D /* New_York_Trip.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = New_York_Trip.gpx; path = ../../../../../Downloads/New_York_Trip.gpx; sourceTree = "<group>"; };
 		01E592961BD2C5CE00C0EA0D /* PizzaPlace+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PizzaPlace+CoreDataProperties.h"; sourceTree = "<group>"; };
 		01E592971BD2C5CE00C0EA0D /* PizzaPlace+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PizzaPlace+CoreDataProperties.m"; sourceTree = "<group>"; };
 		01E592981BD2C5CE00C0EA0D /* PizzaPlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PizzaPlace.h; sourceTree = "<group>"; };
@@ -98,6 +97,7 @@
 		01E592AD1BD2D5D200C0EA0D /* PizzaPlaceDisplayWireframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PizzaPlaceDisplayWireframe.h; sourceTree = "<group>"; };
 		01E592AE1BD2D5D200C0EA0D /* PizzaPlaceDisplayWireframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PizzaPlaceDisplayWireframe.m; sourceTree = "<group>"; };
 		01E592AF1BD2D5D200C0EA0D /* PizzaPlaceDisplayWireframeProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PizzaPlaceDisplayWireframeProtocols.h; sourceTree = "<group>"; };
+		01E592B81BD2DE0B00C0EA0D /* New_York_Trip.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = New_York_Trip.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,7 +150,7 @@
 		01E592471BD2AADC00C0EA0D /* Pizzaler */ = {
 			isa = PBXGroup;
 			children = (
-				01E592941BD2C0DA00C0EA0D /* New_York_Trip.gpx */,
+				01E592B81BD2DE0B00C0EA0D /* New_York_Trip.gpx */,
 				01E5924B1BD2AADC00C0EA0D /* AppDelegate.h */,
 				01E5924C1BD2AADC00C0EA0D /* AppDelegate.m */,
 				01E592511BD2AADC00C0EA0D /* Main.storyboard */,
@@ -407,7 +407,7 @@
 			files = (
 				01E5925B1BD2AADC00C0EA0D /* LaunchScreen.storyboard in Resources */,
 				01E592581BD2AADC00C0EA0D /* Assets.xcassets in Resources */,
-				01E592951BD2C0DA00C0EA0D /* New_York_Trip.gpx in Resources */,
+				01E592B91BD2DE0B00C0EA0D /* New_York_Trip.gpx in Resources */,
 				01E592531BD2AADC00C0EA0D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -673,6 +673,7 @@
 				01E592771BD2AADD00C0EA0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01E592781BD2AADD00C0EA0D /* Build configuration list for PBXNativeTarget "PizzalerTests" */ = {
 			isa = XCConfigurationList;
@@ -681,6 +682,7 @@
 				01E5927A1BD2AADD00C0EA0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01E5927B1BD2AADD00C0EA0D /* Build configuration list for PBXNativeTarget "PizzalerUITests" */ = {
 			isa = XCConfigurationList;
@@ -689,6 +691,7 @@
 				01E5927D1BD2AADD00C0EA0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
